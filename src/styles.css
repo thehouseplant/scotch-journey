@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+/* Material design icons */
+@import '//fonts.googleapis.com/icon?family=Material+Icons';
+
+/* ArcGIS for JavaScript API */
+@import '//js.arcgis.com/4.3/esri/css/main.css';
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f7f7f7;
+}
+body {
+    background-color: #f7f7f7;
+}
+
+.uk-container {
+    background-color: #f7f7f7;
+    margin-top: 15px; 
+    margin-bottom: 15px;
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: #0D47A1;
+}
+.uk-navbar-toggle {
+    color: #fff;
+}
+.uk-navbar-toggle:focus, .uk-navbar-toggle:hover {
+    color: #eee;
+}
+.uk-logo {
+    color: #fff;
+}
+.uk-logo:focus, .uk-logo:hover {
+    color: #eee;
+}
+.uk-navbar-nav>li>a {
+    color: #fff;
+}
+.uk-navbar-nav>li>a:focus, .uk-navbar-nav>li>a:hover {
+    color: #eee;
+}
